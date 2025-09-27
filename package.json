@@ -1,0 +1,22 @@
+{
+  "name": "influex-agency",
+  "version": "1.0.0",
+  "description": "Digital Marketing Agency Website",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install",
+    "setup": "node setup.js",
+    "seed": "cd server && node scripts/seed.js"
+  },
+  "keywords": ["digital-marketing", "agency", "nextjs", "express", "mongodb"],
+  "author": "Influex Agency",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
