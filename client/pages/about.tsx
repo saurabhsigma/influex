@@ -41,29 +41,33 @@ const AboutPage = () => {
 
   const team = [
     {
-      name: 'Sarah Johnson',
+      name: 'Aditya Raj',
       role: 'CEO & Founder',
       image: '/api/placeholder/300/300',
-      bio: 'With over 10 years in digital marketing, Sarah leads our strategic vision and client relationships.'
+      bio: 'With over 10 years in digital marketing, Aditya leads our strategic vision and client relationships.'
+    },
+    ,
+    {
+      name: 'Priya Choudhary',
+      role: 'Chief Operating Officer',
+      image: '/api/placeholder/300/300',
+      bio: 'Priya develops data-driven marketing strategies that drive growth and maximize ROI for our clients.'
+    },
+    
+    {
+      name: 'Aryan Kumar',
+      role: 'Video Editor',
+      image: '/api/placeholder/300/300',
+      bio: 'Aryan brings creative vision to life through stunning designs and compelling visual storytelling.'
     },
     {
-      name: 'Michael Chen',
-      role: 'Lead Developer',
+      name: 'Nikhil Kumar',
+      role: 'Video Editor',
       image: '/api/placeholder/300/300',
-      bio: 'Michael is a full-stack developer with expertise in modern web technologies and cloud architecture.'
-    },
-    {
-      name: 'Emily Rodriguez',
-      role: 'Creative Director',
-      image: '/api/placeholder/300/300',
-      bio: 'Emily brings creative vision to life through stunning designs and compelling visual storytelling.'
-    },
-    {
-      name: 'David Thompson',
-      role: 'Marketing Strategist',
-      image: '/api/placeholder/300/300',
-      bio: 'David develops data-driven marketing strategies that drive growth and maximize ROI for our clients.'
+      bio: 'Nikhil develops data-driven marketing strategies that drive growth and maximize ROI for our clients.'
     }
+
+
   ];
 
   const stats = [
