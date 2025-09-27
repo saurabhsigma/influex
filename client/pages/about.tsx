@@ -46,14 +46,12 @@ const AboutPage = () => {
       image: '/api/placeholder/300/300',
       bio: 'With over 10 years in digital marketing, Aditya leads our strategic vision and client relationships.'
     },
-    ,
     {
       name: 'Priya Choudhary',
       role: 'Chief Operating Officer',
       image: '/api/placeholder/300/300',
       bio: 'Priya develops data-driven marketing strategies that drive growth and maximize ROI for our clients.'
     },
-    
     {
       name: 'Aryan Kumar',
       role: 'Video Editor',
@@ -66,8 +64,6 @@ const AboutPage = () => {
       image: '/api/placeholder/300/300',
       bio: 'Nikhil develops data-driven marketing strategies that drive growth and maximize ROI for our clients.'
     }
-
-
   ];
 
   const stats = [
